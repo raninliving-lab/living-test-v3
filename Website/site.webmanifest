@@ -1,0 +1,17 @@
+{
+  "name": "RANIN LIVING",
+  "short_name": "RANIN",
+  "description": "Premium rentals in Chiang Mai curated by RANIN LIVING.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F4F3EF",
+  "theme_color": "#1A2620",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+*.mov
+.DS_Store
+*.zip
+.swift_module_cache/
+__pycache__/
