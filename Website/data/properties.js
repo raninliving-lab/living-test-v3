@@ -1,9 +1,9 @@
 window.PRANA_PROPERTIES_DATA = {
-  "generatedAt": "2026-06-08T15:14:03",
-  "today": "2026-06-08",
+  "generatedAt": "2026-07-02T15:59:45",
+  "today": "2026-07-02",
   "source": "DATA_BASE_ForRent Excel export",
   "counts": {
-    "pool": 27
+    "pool": 28
   },
   "zones": [
     {
@@ -379,6 +379,49 @@ window.PRANA_PROPERTIES_DATA = {
         "label": "ว่างตอนนี้",
         "rawStatus": "ทรัพว่าง"
       },
+      "leaseDetails": {
+        "contractTermMonths": null,
+        "securityDepositMonths": null,
+        "advanceRentMonths": null,
+        "moveInTotalMonths": null,
+        "shortLeases": {
+          "6-11": {
+            "accepted": null,
+            "premiumPercent": null
+          },
+          "1-5": {
+            "accepted": null,
+            "premiumPercent": null
+          }
+        },
+        "includedInRent": {
+          "commonFee": null,
+          "internet": null,
+          "poolCare": null,
+          "gardenCare": null
+        },
+        "tenantResponsible": {
+          "water": null,
+          "electricity": null,
+          "internet": null,
+          "otherUsage": null
+        },
+        "appliances": {
+          "airConditioner": null,
+          "television": null,
+          "refrigerator": null,
+          "washingMachine": null,
+          "waterHeater": null,
+          "stoveHood": null
+        },
+        "furniture": {
+          "bedMattress": null,
+          "wardrobe": null,
+          "sofa": null,
+          "diningTable": null
+        },
+        "notes": ""
+      },
       "image": "../asset/PoolvillaForRent/Z06_สันผีเสื้อ_รวมโชค_มีโชค/Z06P001_พูลวิลล่า_บ้านพร้อมสระ_หมู่บ้านพฤกษาทอง/03_Final/01_Photos_Final/Z06P001_Cover_01.jpg",
       "imageSource": "local",
       "media": {
@@ -452,7 +495,8 @@ window.PRANA_PROPERTIES_DATA = {
         "workbook": "PoolvillaForRent_ข้อมูลพูลวิลล่า.xlsx",
         "sheet": "MASTER_DATA",
         "row": 2,
-        "folder": "asset/PoolvillaForRent/Z06_สันผีเสื้อ_รวมโชค_มีโชค/Z06P001_พูลวิลล่า_บ้านพร้อมสระ_หมู่บ้านพฤกษาทอง"
+        "folder": "asset/PoolvillaForRent/Z06_สันผีเสื้อ_รวมโชค_มีโชค/Z06P001_พูลวิลล่า_บ้านพร้อมสระ_หมู่บ้านพฤกษาทอง",
+        "databaseDir": "DATA_BASE_ForRent/backup_before_public_map_tambon_20260608_151346"
       }
     },
     {
@@ -473,6 +517,49 @@ window.PRANA_PROPERTIES_DATA = {
         "group": "available",
         "label": "ว่างตอนนี้",
         "rawStatus": "ทรัพว่าง"
+      },
+      "leaseDetails": {
+        "contractTermMonths": null,
+        "securityDepositMonths": null,
+        "advanceRentMonths": null,
+        "moveInTotalMonths": null,
+        "shortLeases": {
+          "6-11": {
+            "accepted": null,
+            "premiumPercent": null
+          },
+          "1-5": {
+            "accepted": null,
+            "premiumPercent": null
+          }
+        },
+        "includedInRent": {
+          "commonFee": null,
+          "internet": null,
+          "poolCare": null,
+          "gardenCare": null
+        },
+        "tenantResponsible": {
+          "water": null,
+          "electricity": null,
+          "internet": null,
+          "otherUsage": null
+        },
+        "appliances": {
+          "airConditioner": null,
+          "television": null,
+          "refrigerator": null,
+          "washingMachine": null,
+          "waterHeater": null,
+          "stoveHood": null
+        },
+        "furniture": {
+          "bedMattress": null,
+          "wardrobe": null,
+          "sofa": null,
+          "diningTable": null
+        },
+        "notes": ""
       },
       "image": "../asset/PoolvillaForRent/Z06_สันผีเสื้อ_รวมโชค_มีโชค/Z06P002_พูลวิลล่า_บ้านพร้อมสระ_หมู่บ้านเลควิลล์พาร์ค/03_Final/01_Photos_Final/Z06P002_Cover_01.jpg",
       "imageSource": "local",
@@ -530,7 +617,87 @@ window.PRANA_PROPERTIES_DATA = {
         "workbook": "PoolvillaForRent_ข้อมูลพูลวิลล่า.xlsx",
         "sheet": "MASTER_DATA",
         "row": 3,
-        "folder": "asset/PoolvillaForRent/Z06_สันผีเสื้อ_รวมโชค_มีโชค/Z06P002_พูลวิลล่า_บ้านพร้อมสระ_หมู่บ้านเลควิลล์พาร์ค"
+        "folder": "asset/PoolvillaForRent/Z06_สันผีเสื้อ_รวมโชค_มีโชค/Z06P002_พูลวิลล่า_บ้านพร้อมสระ_หมู่บ้านเลควิลล์พาร์ค",
+        "databaseDir": "DATA_BASE_ForRent/backup_before_public_map_tambon_20260608_151346"
+      }
+    },
+    {
+      "id": "Z06P003",
+      "category": "pool",
+      "categoryLabel": "พูลวิลล่า",
+      "title": "หมู่บ้านเลควิลล์พาร์ค",
+      "zoneCode": "06",
+      "zoneLabel": "สันผีเสื้อ / รวมโชค / มีโชค",
+      "displayLocation": "หมู่บ้านเลควิลล์พาร์ค",
+      "rent": 100000,
+      "bedrooms": 4,
+      "bathrooms": 6,
+      "areaSqWa": 129.6,
+      "areaLabel": "129.6 ตร.ว.",
+      "contractEndDisplay": "",
+      "tracking": {
+        "group": "available",
+        "label": "ว่างตอนนี้",
+        "rawStatus": "ทรัพว่าง"
+      },
+      "leaseDetails": {
+        "contractTermMonths": null,
+        "securityDepositMonths": null,
+        "advanceRentMonths": null,
+        "moveInTotalMonths": null,
+        "shortLeases": {
+          "6-11": {
+            "accepted": null,
+            "premiumPercent": null
+          },
+          "1-5": {
+            "accepted": null,
+            "premiumPercent": null
+          }
+        },
+        "includedInRent": {
+          "commonFee": null,
+          "internet": null,
+          "poolCare": null,
+          "gardenCare": null
+        },
+        "tenantResponsible": {
+          "water": null,
+          "electricity": null,
+          "internet": null,
+          "otherUsage": null
+        },
+        "appliances": {
+          "airConditioner": null,
+          "television": null,
+          "refrigerator": null,
+          "washingMachine": null,
+          "waterHeater": null,
+          "stoveHood": null
+        },
+        "furniture": {
+          "bedMattress": null,
+          "wardrobe": null,
+          "sofa": null,
+          "diningTable": null
+        },
+        "notes": ""
+      },
+      "image": "Picture OnPage/03_PoolvillaForRent.jpg",
+      "imageSource": "fallback",
+      "media": {
+        "images": [],
+        "videos": []
+      },
+      "postUrl": "",
+      "mapUrl": "ตำบลสันผีเสื้อ เชียงใหม่",
+      "photoDriveUrl": "",
+      "source": {
+        "workbook": "PoolvillaForRent_ข้อมูลพูลวิลล่า.xlsx",
+        "sheet": "MASTER_DATA",
+        "row": 29,
+        "folder": "",
+        "databaseDir": "DATA_BASE_ForRent/backup_before_public_map_tambon_20260608_151346"
       }
     },
     {
@@ -551,6 +718,49 @@ window.PRANA_PROPERTIES_DATA = {
         "group": "available",
         "label": "ว่างตอนนี้",
         "rawStatus": "ทรัพว่าง"
+      },
+      "leaseDetails": {
+        "contractTermMonths": null,
+        "securityDepositMonths": null,
+        "advanceRentMonths": null,
+        "moveInTotalMonths": null,
+        "shortLeases": {
+          "6-11": {
+            "accepted": null,
+            "premiumPercent": null
+          },
+          "1-5": {
+            "accepted": null,
+            "premiumPercent": null
+          }
+        },
+        "includedInRent": {
+          "commonFee": null,
+          "internet": null,
+          "poolCare": null,
+          "gardenCare": null
+        },
+        "tenantResponsible": {
+          "water": null,
+          "electricity": null,
+          "internet": null,
+          "otherUsage": null
+        },
+        "appliances": {
+          "airConditioner": null,
+          "television": null,
+          "refrigerator": null,
+          "washingMachine": null,
+          "waterHeater": null,
+          "stoveHood": null
+        },
+        "furniture": {
+          "bedMattress": null,
+          "wardrobe": null,
+          "sofa": null,
+          "diningTable": null
+        },
+        "notes": ""
       },
       "image": "../asset/PoolvillaForRent/Z07_เซ็นเฟส_ฟ้าฮ่าม_พายัพ/Z07P001_พูลวิลล่า_บ้านพร้อมสระ_หมู่บ้านรีเจนท์_9/03_Final/01_Photos_Final/Z07P001_Cover_01.jpg",
       "imageSource": "local",
@@ -617,7 +827,8 @@ window.PRANA_PROPERTIES_DATA = {
         "workbook": "PoolvillaForRent_ข้อมูลพูลวิลล่า.xlsx",
         "sheet": "MASTER_DATA",
         "row": 4,
-        "folder": "asset/PoolvillaForRent/Z07_เซ็นเฟส_ฟ้าฮ่าม_พายัพ/Z07P001_พูลวิลล่า_บ้านพร้อมสระ_หมู่บ้านรีเจนท์_9"
+        "folder": "asset/PoolvillaForRent/Z07_เซ็นเฟส_ฟ้าฮ่าม_พายัพ/Z07P001_พูลวิลล่า_บ้านพร้อมสระ_หมู่บ้านรีเจนท์_9",
+        "databaseDir": "DATA_BASE_ForRent/backup_before_public_map_tambon_20260608_151346"
       }
     },
     {
@@ -638,6 +849,49 @@ window.PRANA_PROPERTIES_DATA = {
         "group": "available",
         "label": "ว่างตอนนี้",
         "rawStatus": "ทรัพว่าง"
+      },
+      "leaseDetails": {
+        "contractTermMonths": null,
+        "securityDepositMonths": null,
+        "advanceRentMonths": null,
+        "moveInTotalMonths": null,
+        "shortLeases": {
+          "6-11": {
+            "accepted": null,
+            "premiumPercent": null
+          },
+          "1-5": {
+            "accepted": null,
+            "premiumPercent": null
+          }
+        },
+        "includedInRent": {
+          "commonFee": null,
+          "internet": null,
+          "poolCare": null,
+          "gardenCare": null
+        },
+        "tenantResponsible": {
+          "water": null,
+          "electricity": null,
+          "internet": null,
+          "otherUsage": null
+        },
+        "appliances": {
+          "airConditioner": null,
+          "television": null,
+          "refrigerator": null,
+          "washingMachine": null,
+          "waterHeater": null,
+          "stoveHood": null
+        },
+        "furniture": {
+          "bedMattress": null,
+          "wardrobe": null,
+          "sofa": null,
+          "diningTable": null
+        },
+        "notes": ""
       },
       "image": "../asset/PoolvillaForRent/Z07_เซ็นเฟส_ฟ้าฮ่าม_พายัพ/Z07P002_พูลวิลล่า_บ้านพร้อมสระ_หมู่บ้านสินธนา/03_Final/01_Photos_Final/Z07P002_Cover_01.jpg",
       "imageSource": "local",
@@ -713,7 +967,8 @@ window.PRANA_PROPERTIES_DATA = {
         "workbook": "PoolvillaForRent_ข้อมูลพูลวิลล่า.xlsx",
         "sheet": "MASTER_DATA",
         "row": 5,
-        "folder": "asset/PoolvillaForRent/Z07_เซ็นเฟส_ฟ้าฮ่าม_พายัพ/Z07P002_พูลวิลล่า_บ้านพร้อมสระ_หมู่บ้านสินธนา"
+        "folder": "asset/PoolvillaForRent/Z07_เซ็นเฟส_ฟ้าฮ่าม_พายัพ/Z07P002_พูลวิลล่า_บ้านพร้อมสระ_หมู่บ้านสินธนา",
+        "databaseDir": "DATA_BASE_ForRent/backup_before_public_map_tambon_20260608_151346"
       }
     },
     {
@@ -734,6 +989,49 @@ window.PRANA_PROPERTIES_DATA = {
         "group": "available",
         "label": "ว่างตอนนี้",
         "rawStatus": "ทรัพว่าง"
+      },
+      "leaseDetails": {
+        "contractTermMonths": null,
+        "securityDepositMonths": null,
+        "advanceRentMonths": null,
+        "moveInTotalMonths": null,
+        "shortLeases": {
+          "6-11": {
+            "accepted": null,
+            "premiumPercent": null
+          },
+          "1-5": {
+            "accepted": null,
+            "premiumPercent": null
+          }
+        },
+        "includedInRent": {
+          "commonFee": null,
+          "internet": null,
+          "poolCare": null,
+          "gardenCare": null
+        },
+        "tenantResponsible": {
+          "water": null,
+          "electricity": null,
+          "internet": null,
+          "otherUsage": null
+        },
+        "appliances": {
+          "airConditioner": null,
+          "television": null,
+          "refrigerator": null,
+          "washingMachine": null,
+          "waterHeater": null,
+          "stoveHood": null
+        },
+        "furniture": {
+          "bedMattress": null,
+          "wardrobe": null,
+          "sofa": null,
+          "diningTable": null
+        },
+        "notes": ""
       },
       "image": "../asset/PoolvillaForRent/Z07_เซ็นเฟส_ฟ้าฮ่าม_พายัพ/Z07P003_พูลวิลล่า_บ้านพร้อมสระ_หมู่บ้านพิมุกต์_4/03_Final/01_Photos_Final/Z07P003_Cover_01.jpg",
       "imageSource": "local",
@@ -763,7 +1061,8 @@ window.PRANA_PROPERTIES_DATA = {
         "workbook": "PoolvillaForRent_ข้อมูลพูลวิลล่า.xlsx",
         "sheet": "MASTER_DATA",
         "row": 6,
-        "folder": "asset/PoolvillaForRent/Z07_เซ็นเฟส_ฟ้าฮ่าม_พายัพ/Z07P003_พูลวิลล่า_บ้านพร้อมสระ_หมู่บ้านพิมุกต์_4"
+        "folder": "asset/PoolvillaForRent/Z07_เซ็นเฟส_ฟ้าฮ่าม_พายัพ/Z07P003_พูลวิลล่า_บ้านพร้อมสระ_หมู่บ้านพิมุกต์_4",
+        "databaseDir": "DATA_BASE_ForRent/backup_before_public_map_tambon_20260608_151346"
       }
     },
     {
@@ -784,6 +1083,49 @@ window.PRANA_PROPERTIES_DATA = {
         "group": "available",
         "label": "ว่างตอนนี้",
         "rawStatus": "ทรัพว่าง"
+      },
+      "leaseDetails": {
+        "contractTermMonths": null,
+        "securityDepositMonths": null,
+        "advanceRentMonths": null,
+        "moveInTotalMonths": null,
+        "shortLeases": {
+          "6-11": {
+            "accepted": null,
+            "premiumPercent": null
+          },
+          "1-5": {
+            "accepted": null,
+            "premiumPercent": null
+          }
+        },
+        "includedInRent": {
+          "commonFee": null,
+          "internet": null,
+          "poolCare": null,
+          "gardenCare": null
+        },
+        "tenantResponsible": {
+          "water": null,
+          "electricity": null,
+          "internet": null,
+          "otherUsage": null
+        },
+        "appliances": {
+          "airConditioner": null,
+          "television": null,
+          "refrigerator": null,
+          "washingMachine": null,
+          "waterHeater": null,
+          "stoveHood": null
+        },
+        "furniture": {
+          "bedMattress": null,
+          "wardrobe": null,
+          "sofa": null,
+          "diningTable": null
+        },
+        "notes": ""
       },
       "image": "../asset/PoolvillaForRent/Z10_แม่เหียะ_สนามบิน_ราชพฤกษ์/Z10P001_พูลวิลล่า_บ้านพร้อมสระ_ซ.หมู่บ้านทิพย์พนมฮิลล์_99/03_Final/01_Photos_Final/Z10P001_Cover_01.jpg",
       "imageSource": "local",
@@ -858,7 +1200,8 @@ window.PRANA_PROPERTIES_DATA = {
         "workbook": "PoolvillaForRent_ข้อมูลพูลวิลล่า.xlsx",
         "sheet": "MASTER_DATA",
         "row": 7,
-        "folder": "asset/PoolvillaForRent/Z10_แม่เหียะ_สนามบิน_ราชพฤกษ์/Z10P001_พูลวิลล่า_บ้านพร้อมสระ_ซ.หมู่บ้านทิพย์พนมฮิลล์_99"
+        "folder": "asset/PoolvillaForRent/Z10_แม่เหียะ_สนามบิน_ราชพฤกษ์/Z10P001_พูลวิลล่า_บ้านพร้อมสระ_ซ.หมู่บ้านทิพย์พนมฮิลล์_99",
+        "databaseDir": "DATA_BASE_ForRent/backup_before_public_map_tambon_20260608_151346"
       }
     },
     {
@@ -879,6 +1222,49 @@ window.PRANA_PROPERTIES_DATA = {
         "group": "available",
         "label": "ว่างตอนนี้",
         "rawStatus": "ทรัพว่าง"
+      },
+      "leaseDetails": {
+        "contractTermMonths": null,
+        "securityDepositMonths": null,
+        "advanceRentMonths": null,
+        "moveInTotalMonths": null,
+        "shortLeases": {
+          "6-11": {
+            "accepted": null,
+            "premiumPercent": null
+          },
+          "1-5": {
+            "accepted": null,
+            "premiumPercent": null
+          }
+        },
+        "includedInRent": {
+          "commonFee": null,
+          "internet": null,
+          "poolCare": null,
+          "gardenCare": null
+        },
+        "tenantResponsible": {
+          "water": null,
+          "electricity": null,
+          "internet": null,
+          "otherUsage": null
+        },
+        "appliances": {
+          "airConditioner": null,
+          "television": null,
+          "refrigerator": null,
+          "washingMachine": null,
+          "waterHeater": null,
+          "stoveHood": null
+        },
+        "furniture": {
+          "bedMattress": null,
+          "wardrobe": null,
+          "sofa": null,
+          "diningTable": null
+        },
+        "notes": ""
       },
       "image": "../asset/PoolvillaForRent/Z10_แม่เหียะ_สนามบิน_ราชพฤกษ์/Z10P002_พูลวิลล่า_บ้านพร้อมสระ_หมู่บ้านวังตาล_(วังตาล_1_)/03_Final/01_Photos_Final/Z10P002_Cover_01.jpg",
       "imageSource": "local",
@@ -919,7 +1305,8 @@ window.PRANA_PROPERTIES_DATA = {
         "workbook": "PoolvillaForRent_ข้อมูลพูลวิลล่า.xlsx",
         "sheet": "MASTER_DATA",
         "row": 8,
-        "folder": "asset/PoolvillaForRent/Z10_แม่เหียะ_สนามบิน_ราชพฤกษ์/Z10P002_พูลวิลล่า_บ้านพร้อมสระ_หมู่บ้านวังตาล_(วังตาล_1_)"
+        "folder": "asset/PoolvillaForRent/Z10_แม่เหียะ_สนามบิน_ราชพฤกษ์/Z10P002_พูลวิลล่า_บ้านพร้อมสระ_หมู่บ้านวังตาล_(วังตาล_1_)",
+        "databaseDir": "DATA_BASE_ForRent/backup_before_public_map_tambon_20260608_151346"
       }
     },
     {
@@ -940,6 +1327,49 @@ window.PRANA_PROPERTIES_DATA = {
         "group": "available",
         "label": "ว่างตอนนี้",
         "rawStatus": "ทรัพว่าง"
+      },
+      "leaseDetails": {
+        "contractTermMonths": null,
+        "securityDepositMonths": null,
+        "advanceRentMonths": null,
+        "moveInTotalMonths": null,
+        "shortLeases": {
+          "6-11": {
+            "accepted": null,
+            "premiumPercent": null
+          },
+          "1-5": {
+            "accepted": null,
+            "premiumPercent": null
+          }
+        },
+        "includedInRent": {
+          "commonFee": null,
+          "internet": null,
+          "poolCare": null,
+          "gardenCare": null
+        },
+        "tenantResponsible": {
+          "water": null,
+          "electricity": null,
+          "internet": null,
+          "otherUsage": null
+        },
+        "appliances": {
+          "airConditioner": null,
+          "television": null,
+          "refrigerator": null,
+          "washingMachine": null,
+          "waterHeater": null,
+          "stoveHood": null
+        },
+        "furniture": {
+          "bedMattress": null,
+          "wardrobe": null,
+          "sofa": null,
+          "diningTable": null
+        },
+        "notes": ""
       },
       "image": "../asset/PoolvillaForRent/Z10_แม่เหียะ_สนามบิน_ราชพฤกษ์/Z10P003_พูลวิลล่า_บ้านพร้อมสระ_บ้านป่าจี้/03_Final/01_Photos_Final/Z10P003_Cover_01.jpg",
       "imageSource": "local",
@@ -966,7 +1396,8 @@ window.PRANA_PROPERTIES_DATA = {
         "workbook": "PoolvillaForRent_ข้อมูลพูลวิลล่า.xlsx",
         "sheet": "MASTER_DATA",
         "row": 9,
-        "folder": "asset/PoolvillaForRent/Z10_แม่เหียะ_สนามบิน_ราชพฤกษ์/Z10P003_พูลวิลล่า_บ้านพร้อมสระ_บ้านป่าจี้"
+        "folder": "asset/PoolvillaForRent/Z10_แม่เหียะ_สนามบิน_ราชพฤกษ์/Z10P003_พูลวิลล่า_บ้านพร้อมสระ_บ้านป่าจี้",
+        "databaseDir": "DATA_BASE_ForRent/backup_before_public_map_tambon_20260608_151346"
       }
     },
     {
@@ -987,6 +1418,49 @@ window.PRANA_PROPERTIES_DATA = {
         "group": "available",
         "label": "ว่างตอนนี้",
         "rawStatus": "ทรัพว่าง"
+      },
+      "leaseDetails": {
+        "contractTermMonths": null,
+        "securityDepositMonths": null,
+        "advanceRentMonths": null,
+        "moveInTotalMonths": null,
+        "shortLeases": {
+          "6-11": {
+            "accepted": null,
+            "premiumPercent": null
+          },
+          "1-5": {
+            "accepted": null,
+            "premiumPercent": null
+          }
+        },
+        "includedInRent": {
+          "commonFee": null,
+          "internet": null,
+          "poolCare": null,
+          "gardenCare": null
+        },
+        "tenantResponsible": {
+          "water": null,
+          "electricity": null,
+          "internet": null,
+          "otherUsage": null
+        },
+        "appliances": {
+          "airConditioner": null,
+          "television": null,
+          "refrigerator": null,
+          "washingMachine": null,
+          "waterHeater": null,
+          "stoveHood": null
+        },
+        "furniture": {
+          "bedMattress": null,
+          "wardrobe": null,
+          "sofa": null,
+          "diningTable": null
+        },
+        "notes": ""
       },
       "image": "../asset/PoolvillaForRent/Z10_แม่เหียะ_สนามบิน_ราชพฤกษ์/Z10P004_พูลวิลล่า_บ้านพร้อมสระ_หมู่บ้านวังตาล_3A_ซอย_7_หลังC/03_Final/01_Photos_Final/Z10P004_Cover_01.jpg",
       "imageSource": "local",
@@ -1050,7 +1524,8 @@ window.PRANA_PROPERTIES_DATA = {
         "workbook": "PoolvillaForRent_ข้อมูลพูลวิลล่า.xlsx",
         "sheet": "MASTER_DATA",
         "row": 10,
-        "folder": "asset/PoolvillaForRent/Z10_แม่เหียะ_สนามบิน_ราชพฤกษ์/Z10P004_พูลวิลล่า_บ้านพร้อมสระ_หมู่บ้านวังตาล_3A_ซอย_7_หลังC"
+        "folder": "asset/PoolvillaForRent/Z10_แม่เหียะ_สนามบิน_ราชพฤกษ์/Z10P004_พูลวิลล่า_บ้านพร้อมสระ_หมู่บ้านวังตาล_3A_ซอย_7_หลังC",
+        "databaseDir": "DATA_BASE_ForRent/backup_before_public_map_tambon_20260608_151346"
       }
     },
     {
@@ -1071,6 +1546,49 @@ window.PRANA_PROPERTIES_DATA = {
         "group": "available",
         "label": "ว่างตอนนี้",
         "rawStatus": "ทรัพว่าง"
+      },
+      "leaseDetails": {
+        "contractTermMonths": null,
+        "securityDepositMonths": null,
+        "advanceRentMonths": null,
+        "moveInTotalMonths": null,
+        "shortLeases": {
+          "6-11": {
+            "accepted": null,
+            "premiumPercent": null
+          },
+          "1-5": {
+            "accepted": null,
+            "premiumPercent": null
+          }
+        },
+        "includedInRent": {
+          "commonFee": null,
+          "internet": null,
+          "poolCare": null,
+          "gardenCare": null
+        },
+        "tenantResponsible": {
+          "water": null,
+          "electricity": null,
+          "internet": null,
+          "otherUsage": null
+        },
+        "appliances": {
+          "airConditioner": null,
+          "television": null,
+          "refrigerator": null,
+          "washingMachine": null,
+          "waterHeater": null,
+          "stoveHood": null
+        },
+        "furniture": {
+          "bedMattress": null,
+          "wardrobe": null,
+          "sofa": null,
+          "diningTable": null
+        },
+        "notes": ""
       },
       "image": "../asset/PoolvillaForRent/Z10_แม่เหียะ_สนามบิน_ราชพฤกษ์/Z10P006_พูลวิลล่า_บ้านพร้อมสระ_Chic_Pool_Villa_128/03_Final/01_Photos_Final/Z10P006_Cover_01.jpg",
       "imageSource": "local",
@@ -1145,7 +1663,8 @@ window.PRANA_PROPERTIES_DATA = {
         "workbook": "PoolvillaForRent_ข้อมูลพูลวิลล่า.xlsx",
         "sheet": "MASTER_DATA",
         "row": 12,
-        "folder": "asset/PoolvillaForRent/Z10_แม่เหียะ_สนามบิน_ราชพฤกษ์/Z10P006_พูลวิลล่า_บ้านพร้อมสระ_Chic_Pool_Villa_128"
+        "folder": "asset/PoolvillaForRent/Z10_แม่เหียะ_สนามบิน_ราชพฤกษ์/Z10P006_พูลวิลล่า_บ้านพร้อมสระ_Chic_Pool_Villa_128",
+        "databaseDir": "DATA_BASE_ForRent/backup_before_public_map_tambon_20260608_151346"
       }
     },
     {
@@ -1166,6 +1685,49 @@ window.PRANA_PROPERTIES_DATA = {
         "group": "available",
         "label": "ว่างตอนนี้",
         "rawStatus": "ทรัพว่าง"
+      },
+      "leaseDetails": {
+        "contractTermMonths": null,
+        "securityDepositMonths": null,
+        "advanceRentMonths": null,
+        "moveInTotalMonths": null,
+        "shortLeases": {
+          "6-11": {
+            "accepted": null,
+            "premiumPercent": null
+          },
+          "1-5": {
+            "accepted": null,
+            "premiumPercent": null
+          }
+        },
+        "includedInRent": {
+          "commonFee": null,
+          "internet": null,
+          "poolCare": null,
+          "gardenCare": null
+        },
+        "tenantResponsible": {
+          "water": null,
+          "electricity": null,
+          "internet": null,
+          "otherUsage": null
+        },
+        "appliances": {
+          "airConditioner": null,
+          "television": null,
+          "refrigerator": null,
+          "washingMachine": null,
+          "waterHeater": null,
+          "stoveHood": null
+        },
+        "furniture": {
+          "bedMattress": null,
+          "wardrobe": null,
+          "sofa": null,
+          "diningTable": null
+        },
+        "notes": ""
       },
       "image": "../asset/PoolvillaForRent/Z11_หางดง_กาดฝรั่ง_บ้านถวาย/Z11P001_พูลวิลล่า_บ้านพร้อมสระ_น้ำแพร่/03_Final/01_Photos_Final/Z11P001_Cover_01.jpg",
       "imageSource": "local",
@@ -1196,7 +1758,8 @@ window.PRANA_PROPERTIES_DATA = {
         "workbook": "PoolvillaForRent_ข้อมูลพูลวิลล่า.xlsx",
         "sheet": "MASTER_DATA",
         "row": 15,
-        "folder": "asset/PoolvillaForRent/Z11_หางดง_กาดฝรั่ง_บ้านถวาย/Z11P001_พูลวิลล่า_บ้านพร้อมสระ_น้ำแพร่"
+        "folder": "asset/PoolvillaForRent/Z11_หางดง_กาดฝรั่ง_บ้านถวาย/Z11P001_พูลวิลล่า_บ้านพร้อมสระ_น้ำแพร่",
+        "databaseDir": "DATA_BASE_ForRent/backup_before_public_map_tambon_20260608_151346"
       }
     },
     {
@@ -1217,6 +1780,49 @@ window.PRANA_PROPERTIES_DATA = {
         "group": "available",
         "label": "ว่างตอนนี้",
         "rawStatus": "ทรัพว่าง"
+      },
+      "leaseDetails": {
+        "contractTermMonths": null,
+        "securityDepositMonths": null,
+        "advanceRentMonths": null,
+        "moveInTotalMonths": null,
+        "shortLeases": {
+          "6-11": {
+            "accepted": null,
+            "premiumPercent": null
+          },
+          "1-5": {
+            "accepted": null,
+            "premiumPercent": null
+          }
+        },
+        "includedInRent": {
+          "commonFee": null,
+          "internet": null,
+          "poolCare": null,
+          "gardenCare": null
+        },
+        "tenantResponsible": {
+          "water": null,
+          "electricity": null,
+          "internet": null,
+          "otherUsage": null
+        },
+        "appliances": {
+          "airConditioner": null,
+          "television": null,
+          "refrigerator": null,
+          "washingMachine": null,
+          "waterHeater": null,
+          "stoveHood": null
+        },
+        "furniture": {
+          "bedMattress": null,
+          "wardrobe": null,
+          "sofa": null,
+          "diningTable": null
+        },
+        "notes": ""
       },
       "image": "../asset/PoolvillaForRent/Z11_หางดง_กาดฝรั่ง_บ้านถวาย/Z11P002_พูลวิลล่า_บ้านพร้อมสระ_หมู่บ้านคุ้มพญา_257/03_Final/01_Photos_Final/Z11P002_Cover_01.jpg",
       "imageSource": "local",
@@ -1259,7 +1865,8 @@ window.PRANA_PROPERTIES_DATA = {
         "workbook": "PoolvillaForRent_ข้อมูลพูลวิลล่า.xlsx",
         "sheet": "MASTER_DATA",
         "row": 16,
-        "folder": "asset/PoolvillaForRent/Z11_หางดง_กาดฝรั่ง_บ้านถวาย/Z11P002_พูลวิลล่า_บ้านพร้อมสระ_หมู่บ้านคุ้มพญา_257"
+        "folder": "asset/PoolvillaForRent/Z11_หางดง_กาดฝรั่ง_บ้านถวาย/Z11P002_พูลวิลล่า_บ้านพร้อมสระ_หมู่บ้านคุ้มพญา_257",
+        "databaseDir": "DATA_BASE_ForRent/backup_before_public_map_tambon_20260608_151346"
       }
     },
     {
@@ -1280,6 +1887,49 @@ window.PRANA_PROPERTIES_DATA = {
         "group": "available",
         "label": "ว่างตอนนี้",
         "rawStatus": "ทรัพว่าง"
+      },
+      "leaseDetails": {
+        "contractTermMonths": null,
+        "securityDepositMonths": null,
+        "advanceRentMonths": null,
+        "moveInTotalMonths": null,
+        "shortLeases": {
+          "6-11": {
+            "accepted": null,
+            "premiumPercent": null
+          },
+          "1-5": {
+            "accepted": null,
+            "premiumPercent": null
+          }
+        },
+        "includedInRent": {
+          "commonFee": null,
+          "internet": null,
+          "poolCare": null,
+          "gardenCare": null
+        },
+        "tenantResponsible": {
+          "water": null,
+          "electricity": null,
+          "internet": null,
+          "otherUsage": null
+        },
+        "appliances": {
+          "airConditioner": null,
+          "television": null,
+          "refrigerator": null,
+          "washingMachine": null,
+          "waterHeater": null,
+          "stoveHood": null
+        },
+        "furniture": {
+          "bedMattress": null,
+          "wardrobe": null,
+          "sofa": null,
+          "diningTable": null
+        },
+        "notes": ""
       },
       "image": "../asset/PoolvillaForRent/Z11_หางดง_กาดฝรั่ง_บ้านถวาย/Z11P003_พูลวิลล่า_บ้านพร้อมสระ_อยู่ใกล้กาดผักหวาน_8/03_Final/01_Photos_Final/Z11P003_Cover_01.jpg",
       "imageSource": "local",
@@ -1343,7 +1993,8 @@ window.PRANA_PROPERTIES_DATA = {
         "workbook": "PoolvillaForRent_ข้อมูลพูลวิลล่า.xlsx",
         "sheet": "MASTER_DATA",
         "row": 17,
-        "folder": "asset/PoolvillaForRent/Z11_หางดง_กาดฝรั่ง_บ้านถวาย/Z11P003_พูลวิลล่า_บ้านพร้อมสระ_อยู่ใกล้กาดผักหวาน_8"
+        "folder": "asset/PoolvillaForRent/Z11_หางดง_กาดฝรั่ง_บ้านถวาย/Z11P003_พูลวิลล่า_บ้านพร้อมสระ_อยู่ใกล้กาดผักหวาน_8",
+        "databaseDir": "DATA_BASE_ForRent/backup_before_public_map_tambon_20260608_151346"
       }
     },
     {
@@ -1364,6 +2015,49 @@ window.PRANA_PROPERTIES_DATA = {
         "group": "available",
         "label": "ว่างตอนนี้",
         "rawStatus": "ทรัพว่าง"
+      },
+      "leaseDetails": {
+        "contractTermMonths": null,
+        "securityDepositMonths": null,
+        "advanceRentMonths": null,
+        "moveInTotalMonths": null,
+        "shortLeases": {
+          "6-11": {
+            "accepted": null,
+            "premiumPercent": null
+          },
+          "1-5": {
+            "accepted": null,
+            "premiumPercent": null
+          }
+        },
+        "includedInRent": {
+          "commonFee": null,
+          "internet": null,
+          "poolCare": null,
+          "gardenCare": null
+        },
+        "tenantResponsible": {
+          "water": null,
+          "electricity": null,
+          "internet": null,
+          "otherUsage": null
+        },
+        "appliances": {
+          "airConditioner": null,
+          "television": null,
+          "refrigerator": null,
+          "washingMachine": null,
+          "waterHeater": null,
+          "stoveHood": null
+        },
+        "furniture": {
+          "bedMattress": null,
+          "wardrobe": null,
+          "sofa": null,
+          "diningTable": null
+        },
+        "notes": ""
       },
       "image": "../asset/PoolvillaForRent/Z11_หางดง_กาดฝรั่ง_บ้านถวาย/Z11P004_พูลวิลล่า_บ้านพร้อมสระ_หมู่บ้านธารดง/03_Final/01_Photos_Final/Z11P004_Cover_01.jpg",
       "imageSource": "local",
@@ -1401,7 +2095,8 @@ window.PRANA_PROPERTIES_DATA = {
         "workbook": "PoolvillaForRent_ข้อมูลพูลวิลล่า.xlsx",
         "sheet": "MASTER_DATA",
         "row": 18,
-        "folder": "asset/PoolvillaForRent/Z11_หางดง_กาดฝรั่ง_บ้านถวาย/Z11P004_พูลวิลล่า_บ้านพร้อมสระ_หมู่บ้านธารดง"
+        "folder": "asset/PoolvillaForRent/Z11_หางดง_กาดฝรั่ง_บ้านถวาย/Z11P004_พูลวิลล่า_บ้านพร้อมสระ_หมู่บ้านธารดง",
+        "databaseDir": "DATA_BASE_ForRent/backup_before_public_map_tambon_20260608_151346"
       }
     },
     {
@@ -1422,6 +2117,49 @@ window.PRANA_PROPERTIES_DATA = {
         "group": "available",
         "label": "ว่างตอนนี้",
         "rawStatus": "ทรัพว่าง"
+      },
+      "leaseDetails": {
+        "contractTermMonths": null,
+        "securityDepositMonths": null,
+        "advanceRentMonths": null,
+        "moveInTotalMonths": null,
+        "shortLeases": {
+          "6-11": {
+            "accepted": null,
+            "premiumPercent": null
+          },
+          "1-5": {
+            "accepted": null,
+            "premiumPercent": null
+          }
+        },
+        "includedInRent": {
+          "commonFee": null,
+          "internet": null,
+          "poolCare": null,
+          "gardenCare": null
+        },
+        "tenantResponsible": {
+          "water": null,
+          "electricity": null,
+          "internet": null,
+          "otherUsage": null
+        },
+        "appliances": {
+          "airConditioner": null,
+          "television": null,
+          "refrigerator": null,
+          "washingMachine": null,
+          "waterHeater": null,
+          "stoveHood": null
+        },
+        "furniture": {
+          "bedMattress": null,
+          "wardrobe": null,
+          "sofa": null,
+          "diningTable": null
+        },
+        "notes": ""
       },
       "image": "../asset/PoolvillaForRent/Z11_หางดง_กาดฝรั่ง_บ้านถวาย/Z11P005_พูลวิลล่า_บ้านพร้อมสระ_หมู่บ้านกุลพันธ์9/03_Final/01_Photos_Final/Z11P005_Cover_01.jpg",
       "imageSource": "local",
@@ -1456,7 +2194,8 @@ window.PRANA_PROPERTIES_DATA = {
         "workbook": "PoolvillaForRent_ข้อมูลพูลวิลล่า.xlsx",
         "sheet": "MASTER_DATA",
         "row": 19,
-        "folder": "asset/PoolvillaForRent/Z11_หางดง_กาดฝรั่ง_บ้านถวาย/Z11P005_พูลวิลล่า_บ้านพร้อมสระ_หมู่บ้านกุลพันธ์9"
+        "folder": "asset/PoolvillaForRent/Z11_หางดง_กาดฝรั่ง_บ้านถวาย/Z11P005_พูลวิลล่า_บ้านพร้อมสระ_หมู่บ้านกุลพันธ์9",
+        "databaseDir": "DATA_BASE_ForRent/backup_before_public_map_tambon_20260608_151346"
       }
     },
     {
@@ -1477,6 +2216,49 @@ window.PRANA_PROPERTIES_DATA = {
         "group": "available",
         "label": "ว่างตอนนี้",
         "rawStatus": "ทรัพว่าง"
+      },
+      "leaseDetails": {
+        "contractTermMonths": null,
+        "securityDepositMonths": null,
+        "advanceRentMonths": null,
+        "moveInTotalMonths": null,
+        "shortLeases": {
+          "6-11": {
+            "accepted": null,
+            "premiumPercent": null
+          },
+          "1-5": {
+            "accepted": null,
+            "premiumPercent": null
+          }
+        },
+        "includedInRent": {
+          "commonFee": null,
+          "internet": null,
+          "poolCare": null,
+          "gardenCare": null
+        },
+        "tenantResponsible": {
+          "water": null,
+          "electricity": null,
+          "internet": null,
+          "otherUsage": null
+        },
+        "appliances": {
+          "airConditioner": null,
+          "television": null,
+          "refrigerator": null,
+          "washingMachine": null,
+          "waterHeater": null,
+          "stoveHood": null
+        },
+        "furniture": {
+          "bedMattress": null,
+          "wardrobe": null,
+          "sofa": null,
+          "diningTable": null
+        },
+        "notes": ""
       },
       "image": "../asset/PoolvillaForRent/Z11_หางดง_กาดฝรั่ง_บ้านถวาย/Z11P006_พูลวิลล่า_บ้านพร้อมสระ_Charisma_ville_หางดง_385/51/03_Final/01_Photos_Final/Z11P006_Cover_01.jpg",
       "imageSource": "local",
@@ -1530,7 +2312,8 @@ window.PRANA_PROPERTIES_DATA = {
         "workbook": "PoolvillaForRent_ข้อมูลพูลวิลล่า.xlsx",
         "sheet": "MASTER_DATA",
         "row": 20,
-        "folder": "asset/PoolvillaForRent/Z11_หางดง_กาดฝรั่ง_บ้านถวาย/Z11P006_พูลวิลล่า_บ้านพร้อมสระ_Charisma_ville_หางดง_385/51"
+        "folder": "asset/PoolvillaForRent/Z11_หางดง_กาดฝรั่ง_บ้านถวาย/Z11P006_พูลวิลล่า_บ้านพร้อมสระ_Charisma_ville_หางดง_385/51",
+        "databaseDir": "DATA_BASE_ForRent/backup_before_public_map_tambon_20260608_151346"
       }
     },
     {
@@ -1551,6 +2334,49 @@ window.PRANA_PROPERTIES_DATA = {
         "group": "available",
         "label": "ว่างตอนนี้",
         "rawStatus": "ทรัพว่าง"
+      },
+      "leaseDetails": {
+        "contractTermMonths": null,
+        "securityDepositMonths": null,
+        "advanceRentMonths": null,
+        "moveInTotalMonths": null,
+        "shortLeases": {
+          "6-11": {
+            "accepted": null,
+            "premiumPercent": null
+          },
+          "1-5": {
+            "accepted": null,
+            "premiumPercent": null
+          }
+        },
+        "includedInRent": {
+          "commonFee": null,
+          "internet": null,
+          "poolCare": null,
+          "gardenCare": null
+        },
+        "tenantResponsible": {
+          "water": null,
+          "electricity": null,
+          "internet": null,
+          "otherUsage": null
+        },
+        "appliances": {
+          "airConditioner": null,
+          "television": null,
+          "refrigerator": null,
+          "washingMachine": null,
+          "waterHeater": null,
+          "stoveHood": null
+        },
+        "furniture": {
+          "bedMattress": null,
+          "wardrobe": null,
+          "sofa": null,
+          "diningTable": null
+        },
+        "notes": ""
       },
       "image": "../asset/PoolvillaForRent/Z11_หางดง_กาดฝรั่ง_บ้านถวาย/Z11P007_พูลวิลล่า_บ้านพร้อมสระ_หมู่บ้านเชียงใหม่วิวดอย_(หลังซ้ายขาว)/03_Final/01_Photos_Final/Z11P007_Cover_01.jpg",
       "imageSource": "local",
@@ -1626,7 +2452,8 @@ window.PRANA_PROPERTIES_DATA = {
         "workbook": "PoolvillaForRent_ข้อมูลพูลวิลล่า.xlsx",
         "sheet": "MASTER_DATA",
         "row": 21,
-        "folder": "asset/PoolvillaForRent/Z11_หางดง_กาดฝรั่ง_บ้านถวาย/Z11P007_พูลวิลล่า_บ้านพร้อมสระ_หมู่บ้านเชียงใหม่วิวดอย_(หลังซ้ายขาว)"
+        "folder": "asset/PoolvillaForRent/Z11_หางดง_กาดฝรั่ง_บ้านถวาย/Z11P007_พูลวิลล่า_บ้านพร้อมสระ_หมู่บ้านเชียงใหม่วิวดอย_(หลังซ้ายขาว)",
+        "databaseDir": "DATA_BASE_ForRent/backup_before_public_map_tambon_20260608_151346"
       }
     },
     {
@@ -1647,6 +2474,49 @@ window.PRANA_PROPERTIES_DATA = {
         "group": "available",
         "label": "ว่างตอนนี้",
         "rawStatus": "ทรัพว่าง"
+      },
+      "leaseDetails": {
+        "contractTermMonths": null,
+        "securityDepositMonths": null,
+        "advanceRentMonths": null,
+        "moveInTotalMonths": null,
+        "shortLeases": {
+          "6-11": {
+            "accepted": null,
+            "premiumPercent": null
+          },
+          "1-5": {
+            "accepted": null,
+            "premiumPercent": null
+          }
+        },
+        "includedInRent": {
+          "commonFee": null,
+          "internet": null,
+          "poolCare": null,
+          "gardenCare": null
+        },
+        "tenantResponsible": {
+          "water": null,
+          "electricity": null,
+          "internet": null,
+          "otherUsage": null
+        },
+        "appliances": {
+          "airConditioner": null,
+          "television": null,
+          "refrigerator": null,
+          "washingMachine": null,
+          "waterHeater": null,
+          "stoveHood": null
+        },
+        "furniture": {
+          "bedMattress": null,
+          "wardrobe": null,
+          "sofa": null,
+          "diningTable": null
+        },
+        "notes": ""
       },
       "image": "../asset/PoolvillaForRent/Z11_หางดง_กาดฝรั่ง_บ้านถวาย/Z11P009_พูลวิลล่า_บ้านพร้อมสระ_หมู่บ้านธารดง/03_Final/01_Photos_Final/Z11P009_Cover_01.jpg",
       "imageSource": "local",
@@ -1679,7 +2549,8 @@ window.PRANA_PROPERTIES_DATA = {
         "workbook": "PoolvillaForRent_ข้อมูลพูลวิลล่า.xlsx",
         "sheet": "MASTER_DATA",
         "row": 23,
-        "folder": "asset/PoolvillaForRent/Z11_หางดง_กาดฝรั่ง_บ้านถวาย/Z11P009_พูลวิลล่า_บ้านพร้อมสระ_หมู่บ้านธารดง"
+        "folder": "asset/PoolvillaForRent/Z11_หางดง_กาดฝรั่ง_บ้านถวาย/Z11P009_พูลวิลล่า_บ้านพร้อมสระ_หมู่บ้านธารดง",
+        "databaseDir": "DATA_BASE_ForRent/backup_before_public_map_tambon_20260608_151346"
       }
     },
     {
@@ -1701,6 +2572,49 @@ window.PRANA_PROPERTIES_DATA = {
         "label": "ว่างตอนนี้",
         "rawStatus": "ทรัพว่าง"
       },
+      "leaseDetails": {
+        "contractTermMonths": null,
+        "securityDepositMonths": null,
+        "advanceRentMonths": null,
+        "moveInTotalMonths": null,
+        "shortLeases": {
+          "6-11": {
+            "accepted": null,
+            "premiumPercent": null
+          },
+          "1-5": {
+            "accepted": null,
+            "premiumPercent": null
+          }
+        },
+        "includedInRent": {
+          "commonFee": null,
+          "internet": null,
+          "poolCare": null,
+          "gardenCare": null
+        },
+        "tenantResponsible": {
+          "water": null,
+          "electricity": null,
+          "internet": null,
+          "otherUsage": null
+        },
+        "appliances": {
+          "airConditioner": null,
+          "television": null,
+          "refrigerator": null,
+          "washingMachine": null,
+          "waterHeater": null,
+          "stoveHood": null
+        },
+        "furniture": {
+          "bedMattress": null,
+          "wardrobe": null,
+          "sofa": null,
+          "diningTable": null
+        },
+        "notes": ""
+      },
       "image": "../asset/PoolvillaForRent/Z11_หางดง_กาดฝรั่ง_บ้านถวาย/Z11P010_พูลวิลล่า_บ้านพร้อมสระ_หมู่บ้านธารดง/03_Final/01_Photos_Final/Z11P010_Cover_01.jpg",
       "imageSource": "local",
       "media": {
@@ -1717,7 +2631,8 @@ window.PRANA_PROPERTIES_DATA = {
         "workbook": "PoolvillaForRent_ข้อมูลพูลวิลล่า.xlsx",
         "sheet": "MASTER_DATA",
         "row": 24,
-        "folder": "asset/PoolvillaForRent/Z11_หางดง_กาดฝรั่ง_บ้านถวาย/Z11P010_พูลวิลล่า_บ้านพร้อมสระ_หมู่บ้านธารดง"
+        "folder": "asset/PoolvillaForRent/Z11_หางดง_กาดฝรั่ง_บ้านถวาย/Z11P010_พูลวิลล่า_บ้านพร้อมสระ_หมู่บ้านธารดง",
+        "databaseDir": "DATA_BASE_ForRent/backup_before_public_map_tambon_20260608_151346"
       }
     },
     {
@@ -1738,6 +2653,49 @@ window.PRANA_PROPERTIES_DATA = {
         "group": "available",
         "label": "ว่างตอนนี้",
         "rawStatus": "ทรัพว่าง"
+      },
+      "leaseDetails": {
+        "contractTermMonths": null,
+        "securityDepositMonths": null,
+        "advanceRentMonths": null,
+        "moveInTotalMonths": null,
+        "shortLeases": {
+          "6-11": {
+            "accepted": null,
+            "premiumPercent": null
+          },
+          "1-5": {
+            "accepted": null,
+            "premiumPercent": null
+          }
+        },
+        "includedInRent": {
+          "commonFee": null,
+          "internet": null,
+          "poolCare": null,
+          "gardenCare": null
+        },
+        "tenantResponsible": {
+          "water": null,
+          "electricity": null,
+          "internet": null,
+          "otherUsage": null
+        },
+        "appliances": {
+          "airConditioner": null,
+          "television": null,
+          "refrigerator": null,
+          "washingMachine": null,
+          "waterHeater": null,
+          "stoveHood": null
+        },
+        "furniture": {
+          "bedMattress": null,
+          "wardrobe": null,
+          "sofa": null,
+          "diningTable": null
+        },
+        "notes": ""
       },
       "image": "../asset/PoolvillaForRent/Z11_หางดง_กาดฝรั่ง_บ้านถวาย/Z11P011_พูลวิลล่า_บ้านพร้อมสระ_หมู่บ้านธารดง/03_Final/01_Photos_Final/Z11P011_Cover_01.jpg",
       "imageSource": "local",
@@ -1796,7 +2754,8 @@ window.PRANA_PROPERTIES_DATA = {
         "workbook": "PoolvillaForRent_ข้อมูลพูลวิลล่า.xlsx",
         "sheet": "MASTER_DATA",
         "row": 25,
-        "folder": "asset/PoolvillaForRent/Z11_หางดง_กาดฝรั่ง_บ้านถวาย/Z11P011_พูลวิลล่า_บ้านพร้อมสระ_หมู่บ้านธารดง"
+        "folder": "asset/PoolvillaForRent/Z11_หางดง_กาดฝรั่ง_บ้านถวาย/Z11P011_พูลวิลล่า_บ้านพร้อมสระ_หมู่บ้านธารดง",
+        "databaseDir": "DATA_BASE_ForRent/backup_before_public_map_tambon_20260608_151346"
       }
     },
     {
@@ -1817,6 +2776,49 @@ window.PRANA_PROPERTIES_DATA = {
         "group": "available",
         "label": "ว่างตอนนี้",
         "rawStatus": "ทรัพว่าง"
+      },
+      "leaseDetails": {
+        "contractTermMonths": null,
+        "securityDepositMonths": null,
+        "advanceRentMonths": null,
+        "moveInTotalMonths": null,
+        "shortLeases": {
+          "6-11": {
+            "accepted": null,
+            "premiumPercent": null
+          },
+          "1-5": {
+            "accepted": null,
+            "premiumPercent": null
+          }
+        },
+        "includedInRent": {
+          "commonFee": null,
+          "internet": null,
+          "poolCare": null,
+          "gardenCare": null
+        },
+        "tenantResponsible": {
+          "water": null,
+          "electricity": null,
+          "internet": null,
+          "otherUsage": null
+        },
+        "appliances": {
+          "airConditioner": null,
+          "television": null,
+          "refrigerator": null,
+          "washingMachine": null,
+          "waterHeater": null,
+          "stoveHood": null
+        },
+        "furniture": {
+          "bedMattress": null,
+          "wardrobe": null,
+          "sofa": null,
+          "diningTable": null
+        },
+        "notes": ""
       },
       "image": "../asset/PoolvillaForRent/Z11_หางดง_กาดฝรั่ง_บ้านถวาย/Z11P012_พูลวิลล่า_บ้านพร้อมสระ_หมู่บ้านปาล์มสปริง_พริวาโต้_18/03_Final/01_Photos_Final/Z11P012_Cover_01.jpg",
       "imageSource": "local",
@@ -1862,7 +2864,8 @@ window.PRANA_PROPERTIES_DATA = {
         "workbook": "PoolvillaForRent_ข้อมูลพูลวิลล่า.xlsx",
         "sheet": "MASTER_DATA",
         "row": 26,
-        "folder": "asset/PoolvillaForRent/Z11_หางดง_กาดฝรั่ง_บ้านถวาย/Z11P012_พูลวิลล่า_บ้านพร้อมสระ_หมู่บ้านปาล์มสปริง_พริวาโต้_18"
+        "folder": "asset/PoolvillaForRent/Z11_หางดง_กาดฝรั่ง_บ้านถวาย/Z11P012_พูลวิลล่า_บ้านพร้อมสระ_หมู่บ้านปาล์มสปริง_พริวาโต้_18",
+        "databaseDir": "DATA_BASE_ForRent/backup_before_public_map_tambon_20260608_151346"
       }
     },
     {
@@ -1883,6 +2886,49 @@ window.PRANA_PROPERTIES_DATA = {
         "group": "available",
         "label": "ว่างตอนนี้",
         "rawStatus": "ทรัพว่าง"
+      },
+      "leaseDetails": {
+        "contractTermMonths": null,
+        "securityDepositMonths": null,
+        "advanceRentMonths": null,
+        "moveInTotalMonths": null,
+        "shortLeases": {
+          "6-11": {
+            "accepted": null,
+            "premiumPercent": null
+          },
+          "1-5": {
+            "accepted": null,
+            "premiumPercent": null
+          }
+        },
+        "includedInRent": {
+          "commonFee": null,
+          "internet": null,
+          "poolCare": null,
+          "gardenCare": null
+        },
+        "tenantResponsible": {
+          "water": null,
+          "electricity": null,
+          "internet": null,
+          "otherUsage": null
+        },
+        "appliances": {
+          "airConditioner": null,
+          "television": null,
+          "refrigerator": null,
+          "washingMachine": null,
+          "waterHeater": null,
+          "stoveHood": null
+        },
+        "furniture": {
+          "bedMattress": null,
+          "wardrobe": null,
+          "sofa": null,
+          "diningTable": null
+        },
+        "notes": ""
       },
       "image": "../asset/PoolvillaForRent/Z11_หางดง_กาดฝรั่ง_บ้านถวาย/Z11P013_พูลวิลล่า_บ้านพร้อมสระ_หมู่บ้านธารดง/03_Final/01_Photos_Final/Z11P013_Cover_02.jpg",
       "imageSource": "local",
@@ -1957,7 +3003,8 @@ window.PRANA_PROPERTIES_DATA = {
         "workbook": "PoolvillaForRent_ข้อมูลพูลวิลล่า.xlsx",
         "sheet": "MASTER_DATA",
         "row": 27,
-        "folder": "asset/PoolvillaForRent/Z11_หางดง_กาดฝรั่ง_บ้านถวาย/Z11P013_พูลวิลล่า_บ้านพร้อมสระ_หมู่บ้านธารดง"
+        "folder": "asset/PoolvillaForRent/Z11_หางดง_กาดฝรั่ง_บ้านถวาย/Z11P013_พูลวิลล่า_บ้านพร้อมสระ_หมู่บ้านธารดง",
+        "databaseDir": "DATA_BASE_ForRent/backup_before_public_map_tambon_20260608_151346"
       }
     },
     {
@@ -1978,6 +3025,49 @@ window.PRANA_PROPERTIES_DATA = {
         "group": "available",
         "label": "ว่างตอนนี้",
         "rawStatus": "ทรัพว่าง"
+      },
+      "leaseDetails": {
+        "contractTermMonths": null,
+        "securityDepositMonths": null,
+        "advanceRentMonths": null,
+        "moveInTotalMonths": null,
+        "shortLeases": {
+          "6-11": {
+            "accepted": null,
+            "premiumPercent": null
+          },
+          "1-5": {
+            "accepted": null,
+            "premiumPercent": null
+          }
+        },
+        "includedInRent": {
+          "commonFee": null,
+          "internet": null,
+          "poolCare": null,
+          "gardenCare": null
+        },
+        "tenantResponsible": {
+          "water": null,
+          "electricity": null,
+          "internet": null,
+          "otherUsage": null
+        },
+        "appliances": {
+          "airConditioner": null,
+          "television": null,
+          "refrigerator": null,
+          "washingMachine": null,
+          "waterHeater": null,
+          "stoveHood": null
+        },
+        "furniture": {
+          "bedMattress": null,
+          "wardrobe": null,
+          "sofa": null,
+          "diningTable": null
+        },
+        "notes": ""
       },
       "image": "../asset/PoolvillaForRent/Z14_ดอยสะเก็ด_สันปูเลย/Z14P001_พูลวิลล่า_บ้านพร้อมสระ_เชียงใหม่_ฟลอร่าวิลล์/03_Final/01_Photos_Final/Z14P001_Cover_01.jpg",
       "imageSource": "local",
@@ -2013,7 +3103,8 @@ window.PRANA_PROPERTIES_DATA = {
         "workbook": "PoolvillaForRent_ข้อมูลพูลวิลล่า.xlsx",
         "sheet": "MASTER_DATA",
         "row": 13,
-        "folder": "asset/PoolvillaForRent/Z14_ดอยสะเก็ด_สันปูเลย/Z14P001_พูลวิลล่า_บ้านพร้อมสระ_เชียงใหม่_ฟลอร่าวิลล์"
+        "folder": "asset/PoolvillaForRent/Z14_ดอยสะเก็ด_สันปูเลย/Z14P001_พูลวิลล่า_บ้านพร้อมสระ_เชียงใหม่_ฟลอร่าวิลล์",
+        "databaseDir": "DATA_BASE_ForRent/backup_before_public_map_tambon_20260608_151346"
       }
     },
     {
@@ -2034,6 +3125,49 @@ window.PRANA_PROPERTIES_DATA = {
         "group": "available",
         "label": "ว่างตอนนี้",
         "rawStatus": "ทรัพว่าง"
+      },
+      "leaseDetails": {
+        "contractTermMonths": null,
+        "securityDepositMonths": null,
+        "advanceRentMonths": null,
+        "moveInTotalMonths": null,
+        "shortLeases": {
+          "6-11": {
+            "accepted": null,
+            "premiumPercent": null
+          },
+          "1-5": {
+            "accepted": null,
+            "premiumPercent": null
+          }
+        },
+        "includedInRent": {
+          "commonFee": null,
+          "internet": null,
+          "poolCare": null,
+          "gardenCare": null
+        },
+        "tenantResponsible": {
+          "water": null,
+          "electricity": null,
+          "internet": null,
+          "otherUsage": null
+        },
+        "appliances": {
+          "airConditioner": null,
+          "television": null,
+          "refrigerator": null,
+          "washingMachine": null,
+          "waterHeater": null,
+          "stoveHood": null
+        },
+        "furniture": {
+          "bedMattress": null,
+          "wardrobe": null,
+          "sofa": null,
+          "diningTable": null
+        },
+        "notes": ""
       },
       "image": "../asset/PoolvillaForRent/Z14_ดอยสะเก็ด_สันปูเลย/Z14P002_พูลวิลล่า_บ้านพร้อมสระ_ศิริพรการ์เด้นโฮม/03_Final/01_Photos_Final/Z14P002_Cover_01.jpg",
       "imageSource": "local",
@@ -2108,7 +3242,8 @@ window.PRANA_PROPERTIES_DATA = {
         "workbook": "PoolvillaForRent_ข้อมูลพูลวิลล่า.xlsx",
         "sheet": "MASTER_DATA",
         "row": 14,
-        "folder": "asset/PoolvillaForRent/Z14_ดอยสะเก็ด_สันปูเลย/Z14P002_พูลวิลล่า_บ้านพร้อมสระ_ศิริพรการ์เด้นโฮม"
+        "folder": "asset/PoolvillaForRent/Z14_ดอยสะเก็ด_สันปูเลย/Z14P002_พูลวิลล่า_บ้านพร้อมสระ_ศิริพรการ์เด้นโฮม",
+        "databaseDir": "DATA_BASE_ForRent/backup_before_public_map_tambon_20260608_151346"
       }
     },
     {
@@ -2129,6 +3264,49 @@ window.PRANA_PROPERTIES_DATA = {
         "group": "available",
         "label": "ว่างตอนนี้",
         "rawStatus": "ทรัพว่าง"
+      },
+      "leaseDetails": {
+        "contractTermMonths": null,
+        "securityDepositMonths": null,
+        "advanceRentMonths": null,
+        "moveInTotalMonths": null,
+        "shortLeases": {
+          "6-11": {
+            "accepted": null,
+            "premiumPercent": null
+          },
+          "1-5": {
+            "accepted": null,
+            "premiumPercent": null
+          }
+        },
+        "includedInRent": {
+          "commonFee": null,
+          "internet": null,
+          "poolCare": null,
+          "gardenCare": null
+        },
+        "tenantResponsible": {
+          "water": null,
+          "electricity": null,
+          "internet": null,
+          "otherUsage": null
+        },
+        "appliances": {
+          "airConditioner": null,
+          "television": null,
+          "refrigerator": null,
+          "washingMachine": null,
+          "waterHeater": null,
+          "stoveHood": null
+        },
+        "furniture": {
+          "bedMattress": null,
+          "wardrobe": null,
+          "sofa": null,
+          "diningTable": null
+        },
+        "notes": ""
       },
       "image": "../asset/PoolvillaForRent/Z16_หนองหอย_สารภี_ยางเนิ้ง/Z16P001_พูลวิลล่า_บ้านพร้อมสระ_หมู่บ้านน้ำโจ้/03_Final/01_Photos_Final/Z16P001_Cover_01.jpg",
       "imageSource": "local",
@@ -2185,7 +3363,8 @@ window.PRANA_PROPERTIES_DATA = {
         "workbook": "PoolvillaForRent_ข้อมูลพูลวิลล่า.xlsx",
         "sheet": "MASTER_DATA",
         "row": 28,
-        "folder": "asset/PoolvillaForRent/Z16_หนองหอย_สารภี_ยางเนิ้ง/Z16P001_พูลวิลล่า_บ้านพร้อมสระ_หมู่บ้านน้ำโจ้"
+        "folder": "asset/PoolvillaForRent/Z16_หนองหอย_สารภี_ยางเนิ้ง/Z16P001_พูลวิลล่า_บ้านพร้อมสระ_หมู่บ้านน้ำโจ้",
+        "databaseDir": "DATA_BASE_ForRent/backup_before_public_map_tambon_20260608_151346"
       }
     },
     {
@@ -2206,6 +3385,49 @@ window.PRANA_PROPERTIES_DATA = {
         "group": "occupied",
         "label": "ไม่ว่าง",
         "rawStatus": "เช่าแล้ว(ลูกค้า)"
+      },
+      "leaseDetails": {
+        "contractTermMonths": null,
+        "securityDepositMonths": null,
+        "advanceRentMonths": null,
+        "moveInTotalMonths": null,
+        "shortLeases": {
+          "6-11": {
+            "accepted": null,
+            "premiumPercent": null
+          },
+          "1-5": {
+            "accepted": null,
+            "premiumPercent": null
+          }
+        },
+        "includedInRent": {
+          "commonFee": null,
+          "internet": null,
+          "poolCare": null,
+          "gardenCare": null
+        },
+        "tenantResponsible": {
+          "water": null,
+          "electricity": null,
+          "internet": null,
+          "otherUsage": null
+        },
+        "appliances": {
+          "airConditioner": null,
+          "television": null,
+          "refrigerator": null,
+          "washingMachine": null,
+          "waterHeater": null,
+          "stoveHood": null
+        },
+        "furniture": {
+          "bedMattress": null,
+          "wardrobe": null,
+          "sofa": null,
+          "diningTable": null
+        },
+        "notes": ""
       },
       "image": "../asset/PoolvillaForRent/Z10_แม่เหียะ_สนามบิน_ราชพฤกษ์/Z10P005_พูลวิลล่า_บ้านพร้อมสระ_The_Terrest_วังตาล_3Aซอย_9/03_Final/01_Photos_Final/Z10P005_Cover_01.jpg",
       "imageSource": "local",
@@ -2247,7 +3469,8 @@ window.PRANA_PROPERTIES_DATA = {
         "workbook": "PoolvillaForRent_ข้อมูลพูลวิลล่า.xlsx",
         "sheet": "MASTER_DATA",
         "row": 11,
-        "folder": "asset/PoolvillaForRent/Z10_แม่เหียะ_สนามบิน_ราชพฤกษ์/Z10P005_พูลวิลล่า_บ้านพร้อมสระ_The_Terrest_วังตาล_3Aซอย_9"
+        "folder": "asset/PoolvillaForRent/Z10_แม่เหียะ_สนามบิน_ราชพฤกษ์/Z10P005_พูลวิลล่า_บ้านพร้อมสระ_The_Terrest_วังตาล_3Aซอย_9",
+        "databaseDir": "DATA_BASE_ForRent/backup_before_public_map_tambon_20260608_151346"
       }
     },
     {
@@ -2268,6 +3491,49 @@ window.PRANA_PROPERTIES_DATA = {
         "group": "occupied",
         "label": "ไม่ว่าง",
         "rawStatus": "เช่าแล้ว(ลูกค้า)"
+      },
+      "leaseDetails": {
+        "contractTermMonths": null,
+        "securityDepositMonths": null,
+        "advanceRentMonths": null,
+        "moveInTotalMonths": null,
+        "shortLeases": {
+          "6-11": {
+            "accepted": null,
+            "premiumPercent": null
+          },
+          "1-5": {
+            "accepted": null,
+            "premiumPercent": null
+          }
+        },
+        "includedInRent": {
+          "commonFee": null,
+          "internet": null,
+          "poolCare": null,
+          "gardenCare": null
+        },
+        "tenantResponsible": {
+          "water": null,
+          "electricity": null,
+          "internet": null,
+          "otherUsage": null
+        },
+        "appliances": {
+          "airConditioner": null,
+          "television": null,
+          "refrigerator": null,
+          "washingMachine": null,
+          "waterHeater": null,
+          "stoveHood": null
+        },
+        "furniture": {
+          "bedMattress": null,
+          "wardrobe": null,
+          "sofa": null,
+          "diningTable": null
+        },
+        "notes": ""
       },
       "image": "../asset/PoolvillaForRent/Z11_หางดง_กาดฝรั่ง_บ้านถวาย/Z11P008_พูลวิลล่า_บ้านพร้อมสระ_หมู่บ้านปาล์มสปริง_พริวาโต้/03_Final/01_Photos_Final/Z11P008_Cover_01.jpg",
       "imageSource": "local",
@@ -2330,7 +3596,8 @@ window.PRANA_PROPERTIES_DATA = {
         "workbook": "PoolvillaForRent_ข้อมูลพูลวิลล่า.xlsx",
         "sheet": "MASTER_DATA",
         "row": 22,
-        "folder": "asset/PoolvillaForRent/Z11_หางดง_กาดฝรั่ง_บ้านถวาย/Z11P008_พูลวิลล่า_บ้านพร้อมสระ_หมู่บ้านปาล์มสปริง_พริวาโต้"
+        "folder": "asset/PoolvillaForRent/Z11_หางดง_กาดฝรั่ง_บ้านถวาย/Z11P008_พูลวิลล่า_บ้านพร้อมสระ_หมู่บ้านปาล์มสปริง_พริวาโต้",
+        "databaseDir": "DATA_BASE_ForRent/backup_before_public_map_tambon_20260608_151346"
       }
     }
   ]

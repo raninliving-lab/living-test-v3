@@ -12,6 +12,7 @@ import openpyxl
 
 ROOT = Path(__file__).resolve().parents[2]
 DATABASE_DIR = ROOT / "DATA_BASE_ForRent"
+DATABASE_BACKUP_DIR = DATABASE_DIR / "backup_before_public_map_tambon_20260608_151346"
 MASTER_ZONE_PATH = ROOT / "DATA_BASE_ETC." / "chiangmai_master_zones.xlsx"
 OUTPUT_PATH = ROOT / "Website" / "data" / "properties.json"
 SCRIPT_OUTPUT_PATH = ROOT / "Website" / "data" / "properties.js"
@@ -38,9 +39,9 @@ WORKBOOKS = [
 ]
 
 FALLBACK_IMAGES = {
-    "house": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=1400&q=80",
-    "condo": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=1400&q=80",
-    "pool": "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1400&q=80",
+    "house": "Picture OnPage/02_HomeForRent.jpg",
+    "condo": "Picture OnPage/01_CondoForRent.jpg",
+    "pool": "Picture OnPage/03_PoolvillaForRent.jpg",
 }
 
 IMAGE_EXTENSIONS = {".jpg", ".jpeg", ".png", ".webp", ".gif", ".jfif"}
@@ -74,6 +75,12 @@ TRACKING_LABELS = {
     "occupied": "ไม่ว่าง",
     "unknown": "ไม่ระบุวันว่าง",
 }
+
+# Backup XLSX snapshots are the only source used by this safe Test flow.
+WORKBOOK_SOURCE_DIRS = [
+    DATABASE_BACKUP_DIR,
+    DATABASE_DIR,
+]
 
 PUBLIC_MAP_QUERIES_BY_ZONE = {
     "01": "ตำบลศรีภูมิ เชียงใหม่",
@@ -310,6 +317,15 @@ def public_path(path: Path) -> str:
     return f"../{rel}"
 
 
+def find_workbook_path(filename: str) -> Path:
+    for source_dir in WORKBOOK_SOURCE_DIRS:
+        candidate = source_dir / filename
+        if candidate.exists():
+            return candidate
+    searched = ", ".join(str(path.relative_to(ROOT)) for path in WORKBOOK_SOURCE_DIRS)
+    raise FileNotFoundError(f"Could not find {filename} in any of: {searched}")
+
+
 def natural_sort_key(path: Path) -> list[Any]:
     return [
         int(part) if part.isdigit() else part.lower()
@@ -437,7 +453,7 @@ def export_properties() -> dict[str, Any]:
     zones, zones_by_code = load_master_zones()
 
     for config in WORKBOOKS:
-        workbook_path = DATABASE_DIR / config["file"]
+        workbook_path = find_workbook_path(config["file"])
         workbook = openpyxl.load_workbook(workbook_path, read_only=True, data_only=True)
         sheet = workbook["MASTER_DATA"]
         header_values = next(sheet.iter_rows(min_row=1, max_row=1, values_only=True))
@@ -506,6 +522,7 @@ def export_properties() -> dict[str, Any]:
                         "sheet": "MASTER_DATA",
                         "row": excel_row,
                         "folder": folder.relative_to(ROOT).as_posix() if folder else "",
+                        "databaseDir": workbook_path.parent.relative_to(ROOT).as_posix(),
                     },
                 }
             )
