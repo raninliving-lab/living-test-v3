@@ -554,6 +554,10 @@
       background: #E8E6E1;
       color: #77736C;
     }
+    .property-detail__facts-status.is-unavailable.is-cross {
+      background: #FCE8E6;
+      color: #B3261E;
+    }
     .property-detail__facts-status.is-pending {
       background: #F0E9DC;
       color: #A0793C;
@@ -1887,6 +1891,11 @@
 	        'detail.securityDeposit': 'เงินประกัน',
 	        'detail.advanceRent': 'ค่าเช่าล่วงหน้า',
 	        'detail.moveInTotal': 'ยอดชำระวันเข้าอยู่',
+	        'detail.petPolicy': 'สัตว์เลี้ยง',
+	        'detail.petsAllowed': 'รับสัตว์เลี้ยง',
+	        'detail.petsNotAllowed': 'ไม่รับสัตว์เลี้ยง',
+	        'detail.petsConditional': 'รับแบบมีเงื่อนไข',
+	        'detail.petsUnspecified': 'รับสัตว์เลี้ยง',
 	        'detail.totalMonths': 'รวม {count} เดือน',
 	        'detail.shortLease': 'สัญญาระยะสั้น',
 	        'detail.lease6to11': '6–11 เดือน',
@@ -1912,6 +1921,7 @@
 	        'detail.washingMachine': 'เครื่องซักผ้า',
 	        'detail.waterHeater': 'เครื่องทำน้ำอุ่น',
 	        'detail.stoveHood': 'เตาและเครื่องดูดควัน',
+	        'detail.microwave': 'ไมโครเวฟ',
 	        'detail.bedMattress': 'เตียงและที่นอน',
 	        'detail.wardrobe': 'ตู้เสื้อผ้า',
 	        'detail.sofa': 'โซฟา',
@@ -1926,7 +1936,7 @@
 	        'detail.notAvailable': 'ไม่มี',
 		        'detail.pendingGeneral': 'สอบถามเพิ่มเติม',
 		        'detail.pendingCondition': 'สอบถามเงื่อนไข',
-		        'detail.pendingInventory': 'ตรวจสอบรายการจริง',
+		        'detail.pendingInventory': 'สอบถามเพิ่มเติม',
 		        'detail.pendingService': 'ยืนยันก่อนทำสัญญา',
 		        'detail.pendingUpdate': 'สอบถามเพิ่มเติม',
 	        'detail.nearbyPlaces': 'สถานที่ใกล้เคียง',
@@ -2174,6 +2184,11 @@
 	        'detail.securityDeposit': 'Security deposit',
 	        'detail.advanceRent': 'Advance rent',
 	        'detail.moveInTotal': 'Due on move-in',
+	        'detail.petPolicy': 'Pets',
+        'detail.petsAllowed': 'Pets allowed',
+        'detail.petsNotAllowed': 'Pets not allowed',
+	        'detail.petsConditional': 'Allowed with conditions',
+	        'detail.petsUnspecified': 'Pets',
 	        'detail.totalMonths': 'Total {count} months',
 	        'detail.shortLease': 'Short-term lease',
 	        'detail.lease6to11': '6–11 months',
@@ -2199,6 +2214,7 @@
 	        'detail.washingMachine': 'Washing machine',
 	        'detail.waterHeater': 'Water heaters',
 	        'detail.stoveHood': 'Stove and range hood',
+	        'detail.microwave': 'Microwave',
 	        'detail.bedMattress': 'Beds and mattresses',
 	        'detail.wardrobe': 'Wardrobes',
 	        'detail.sofa': 'Sofas',
@@ -2213,7 +2229,7 @@
 	        'detail.notAvailable': 'Not included',
 		        'detail.pendingGeneral': 'Ask for details',
 		        'detail.pendingCondition': 'Confirm terms',
-		        'detail.pendingInventory': 'Verify actual inventory',
+		        'detail.pendingInventory': 'Ask for details',
 		        'detail.pendingService': 'Confirm before signing',
 		        'detail.pendingUpdate': 'Ask for details',
 	        'detail.nearbyPlaces': 'Nearby places',
@@ -2461,6 +2477,11 @@
 	        'detail.securityDeposit': '押金',
 	        'detail.advanceRent': '预付租金',
 	        'detail.moveInTotal': '入住时应付',
+	        'detail.petPolicy': '宠物',
+        'detail.petsAllowed': '允许携带宠物',
+        'detail.petsNotAllowed': '不允许携带宠物',
+	        'detail.petsConditional': '有条件允许',
+	        'detail.petsUnspecified': '宠物',
 	        'detail.totalMonths': '共 {count} 个月',
 	        'detail.shortLease': '短期租约',
 	        'detail.lease6to11': '6–11 个月',
@@ -2486,6 +2507,7 @@
 	        'detail.washingMachine': '洗衣机',
 	        'detail.waterHeater': '热水器',
 	        'detail.stoveHood': '炉灶与抽油烟机',
+	        'detail.microwave': '微波炉',
 	        'detail.bedMattress': '床和床垫',
 	        'detail.wardrobe': '衣柜',
 	        'detail.sofa': '沙发',
@@ -2500,7 +2522,7 @@
 	        'detail.notAvailable': '不提供',
 		        'detail.pendingGeneral': '请咨询详情',
 		        'detail.pendingCondition': '请咨询条件',
-		        'detail.pendingInventory': '请核对实际清单',
+		        'detail.pendingInventory': '请咨询详情',
 		        'detail.pendingService': '签约前确认',
 		        'detail.pendingUpdate': '请咨询详情',
 	        'detail.nearbyPlaces': '附近地点',
@@ -3084,9 +3106,9 @@
       typeof value === 'boolean' ? value : null
     );
 
-    const renderFactStatus = (available, label) => `
+    const renderFactStatus = (available, label, variant = '') => `
       <span
-        class="property-detail__facts-status ${available === null ? 'is-pending' : available ? '' : 'is-unavailable'}"
+        class="property-detail__facts-status ${available === null ? 'is-pending' : available ? '' : 'is-unavailable'} ${variant ? `is-${variant}` : ''}"
         role="img"
         aria-label="${escapeHtml(label)}"
       >
@@ -3094,6 +3116,8 @@
           ? '<svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="3"/></svg>'
           : available
           ? '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m5 12 4 4L19 6"/></svg>'
+          : variant === 'cross'
+          ? '<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m7 7 10 10M17 7 7 17"/></svg>'
           : '<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 12h12"/></svg>'}
       </span>
     `;
@@ -3104,7 +3128,7 @@
 	        <span class="property-detail__facts-value">${escapeHtml(value || (status?.available === null ? (status.pendingText || detailPendingText()) : ''))}</span>
         ${status === null
           ? '<span aria-hidden="true"></span>'
-          : renderFactStatus(status.available, status.label)}
+          : renderFactStatus(status.available, status.label, status.variant)}
       </div>
     `;
 
@@ -3112,11 +3136,44 @@
       available: booleanOrPending(value),
 	      label: value === true ? t('detail.available') : value === false ? t('detail.notAvailable') : t('detail.pendingUpdate'),
 	    });
-	    const serviceStatus = (value) => ({
-	      ...detailStatus(value),
-	      label: value === true ? t('detail.available') : value === false ? t('detail.notAvailable') : detailPendingText('service'),
-	      pendingText: detailPendingText('service'),
-	    });
+    const serviceStatus = (value) => ({
+      ...detailStatus(value),
+      label: value === true ? t('detail.available') : value === false ? t('detail.notAvailable') : detailPendingText('service'),
+      pendingText: detailPendingText('service'),
+    });
+
+    const normalizePetPolicy = (value) => {
+      if (value === true) return 'allowed';
+      if (value === false) return 'notAllowed';
+
+      const text = String(value ?? '').trim().toLowerCase();
+      if (['รับ', 'allowed', 'allow', 'yes', 'true'].includes(text)) return 'allowed';
+      if (['ไม่รับ', 'not allowed', 'notallowed', 'no', 'false'].includes(text)) return 'notAllowed';
+      if (['รับแบบมีเงื่อนไข', 'allowed with conditions', 'conditional'].includes(text)) return 'conditional';
+      return 'unspecified';
+    };
+
+    const renderPetPolicyRow = (profile) => {
+      const policy = normalizePetPolicy(profile?.petPolicy ?? profile?.petAllowed);
+      const valueByPolicy = {
+        allowed: t('detail.petsAllowed'),
+        notAllowed: t('detail.petsNotAllowed'),
+        conditional: t('detail.petsConditional'),
+        unspecified: t('detail.petsUnspecified'),
+      };
+      const availableByPolicy = {
+        allowed: true,
+        notAllowed: false,
+        conditional: true,
+        unspecified: true,
+      };
+      const value = valueByPolicy[policy];
+      return renderFactRow(t('detail.petPolicy'), value, {
+        available: availableByPolicy[policy],
+        label: value,
+        variant: policy === 'notAllowed' ? 'cross' : '',
+      });
+    };
 
     const leaseByRange = (profile, range) => {
       const leases = profile?.shortLeases;
@@ -3130,17 +3187,17 @@
       const count = inventoryCount(profile, group, entry.key);
       const hasCount = hasDetailValue(count);
       const numericCount = Number(count);
-      const available = hasCount ? numericCount > 0 : null;
+      const available = hasCount && numericCount > 0 ? true : null;
       return renderFactRow(
         t(entry.labelKey),
         hasCount && numericCount > 0
           ? t(entry.unitKey, { count: numericCount.toLocaleString('th-TH') })
           : hasCount
-            ? t('detail.notAvailable')
+            ? detailPendingText('inventory')
 	            : detailPendingText('inventory'),
 	        {
 	          available,
-	          label: available === true ? t('detail.available') : available === false ? t('detail.notAvailable') : detailPendingText('inventory'),
+	          label: available === true ? t('detail.available') : detailPendingText('inventory'),
 	          pendingText: detailPendingText('inventory'),
 	        }
       );
@@ -3208,6 +3265,7 @@
         { labelKey: 'detail.washingMachine', key: 'washingMachine', unitKey: 'unit.appliances' },
         { labelKey: 'detail.waterHeater', key: 'waterHeater', unitKey: 'unit.appliances' },
         { labelKey: 'detail.stoveHood', key: 'stoveHood', unitKey: 'unit.sets' },
+        { labelKey: 'detail.microwave', key: 'microwave', unitKey: 'unit.appliances' },
       ];
       const furnitureEntries = [
         { labelKey: 'detail.bedMattress', key: 'bedMattress', unitKey: 'unit.sets' },
@@ -3243,28 +3301,7 @@
             <div class="property-detail__facts-list">
               ${renderShortLeaseRow(profile, '6-11', t('detail.lease6to11'))}
               ${renderShortLeaseRow(profile, '1-5', t('detail.lease1to5'))}
-            </div>
-          </section>
-
-          <section class="property-detail__facts-section" aria-labelledby="propertyCostsTitle">
-            <h3 id="propertyCostsTitle" class="property-detail__facts-title">${escapeHtml(t('detail.costsServices'))}</h3>
-
-            <h4 class="property-detail__facts-subtitle">${escapeHtml(t('detail.includedInRent'))}</h4>
-            <div class="property-detail__facts-list">
-              ${includedEntries.map(([labelKey, key]) => renderFactRow(
-                t(labelKey),
-                '',
-	                serviceStatus(serviceValue(profile, 'includedInRent', key))
-              )).join('')}
-            </div>
-
-            <h4 class="property-detail__facts-subtitle">${escapeHtml(t('detail.tenantResponsible'))}</h4>
-            <div class="property-detail__facts-list">
-              ${tenantEntries.map(([labelKey, key]) => renderFactRow(
-                t(labelKey),
-                '',
-	                serviceStatus(serviceValue(profile, 'tenantResponsible', key))
-              )).join('')}
+              ${renderPetPolicyRow(profile)}
             </div>
           </section>
 
@@ -4206,8 +4243,13 @@
     });
 
     const loadWebsiteData = async () => {
+      const cacheBuster = Date.now().toString();
       const urls = [
-        new URL('data/properties.json', window.location.href).href,
+        (() => {
+          const url = new URL('data/properties.json', window.location.href);
+          url.searchParams.set('v', cacheBuster);
+          return url.href;
+        })(),
       ];
       let lastError;
 
