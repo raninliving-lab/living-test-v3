@@ -1129,10 +1129,10 @@
 	            <h2 class="text-[16px] md:text-[18px] leading-snug text-ink font-medium" data-i18n="search.title">ค้นหาทรัพย์เช่าที่ตรงกับทำเล งบ และสถานะจริง</h2>
 	          <span class="hidden md:block text-[13px] text-muted lg:text-right" data-i18n="search.updated">กรองด้วยโซน ห้องนอน งบประมาณ และวันพร้อมเข้าอยู่</span>
 	        </div>
-          <div class="flex flex-wrap items-center gap-x-4 gap-y-3">
-            <div id="tabs" class="flex flex-wrap gap-1 text-[14px]" role="tablist">
-              <button data-tab="all" class="tab px-4 py-2 rounded-full bg-ink text-white" data-i18n="category.all">ทั้งหมด</button>
-              <button data-tab="house" class="tab px-4 py-2 rounded-full text-ink-2 hover:bg-black/5" data-i18n="category.house">บ้านเช่า</button>
+	          <div class="flex flex-wrap items-center gap-x-4 gap-y-3">
+	            <div id="tabs" class="flex flex-wrap gap-1 text-[14px]" role="tablist">
+	              <button data-tab="all" class="tab px-4 py-2 rounded-full bg-ink text-white" data-i18n="category.all">ทั้งหมด</button>
+	              <button data-tab="house" class="tab px-4 py-2 rounded-full text-ink-2 hover:bg-black/5" data-i18n="category.house">บ้านเช่า</button>
 	              <button data-tab="condo" class="tab px-4 py-2 rounded-full text-ink-2 hover:bg-black/5" data-i18n="category.condo">คอนโดเช่า</button>
 	              <button data-tab="pool"  class="tab px-4 py-2 rounded-full text-ink-2 hover:bg-black/5" data-i18n="category.pool">พูลวิลล่า</button>
 	            </div>
@@ -1714,8 +1714,8 @@
 	        'filters.rentLuxury': '฿80,000 ขึ้นไป',
 	        'filters.status': 'สถานะ',
 	        'filters.all': 'ทั้งหมด',
-        'category.all': 'ทั้งหมด',
-        'category.house': 'บ้านเช่า',
+	        'category.all': 'ทั้งหมด',
+	        'category.house': 'บ้านเช่า',
 	        'category.condo': 'คอนโดเช่า',
 	        'category.pool': 'พูลวิลล่า',
 	        'category.property': 'ทรัพย์',
@@ -2008,8 +2008,8 @@
 	        'filters.rentLuxury': '฿80,000+',
 	        'filters.status': 'Status',
 	        'filters.all': 'All',
-        'category.all': 'All',
-        'category.house': 'Homes',
+	        'category.all': 'All',
+	        'category.house': 'Homes',
 	        'category.condo': 'Condos',
 	        'category.pool': 'Pool Villas',
 	        'category.property': 'Property',
@@ -2302,8 +2302,8 @@
 	        'filters.rentLuxury': '฿80,000 以上',
 	        'filters.status': '状态',
 	        'filters.all': '全部',
-        'category.all': '全部',
-        'category.house': '独栋住宅',
+	        'category.all': '全部',
+	        'category.house': '独栋住宅',
 	        'category.condo': '公寓',
 	        'category.pool': '泳池别墅',
 	        'category.property': '房源',
@@ -2574,8 +2574,8 @@
 
 	    const state = {
 	      properties: [],
-      // Start each new page load with every property category selected.
-      activeCategory: 'all',
+	      // Start every fresh page load with the complete property list selected.
+	      activeCategory: 'all',
 	      language: readSavedLanguage(),
 	      visibleLimit: 12,
 	      zoneShowcasePage: 0,
@@ -2609,9 +2609,9 @@
 	        occupied: t('tracking.occupied'),
 	        unknown: t('tracking.unknown'),
 	      };
-      categoryLabels = {
-        all: t('category.all'),
-        house: t('category.house'),
+	      categoryLabels = {
+	        all: t('category.all'),
+	        house: t('category.house'),
 	        condo: t('category.condo'),
 	        pool: t('category.pool'),
 	      };
@@ -3599,7 +3599,7 @@
       const tracking = trackingFilter?.value || 'all';
 
       return state.properties.filter((item) => {
-        if (state.activeCategory !== 'all' && item.category !== state.activeCategory) return false;
+	        if (state.activeCategory !== 'all' && item.category !== state.activeCategory) return false;
         if (zone !== 'all' && item.zoneCode !== zone) return false;
         if (tracking !== 'all' && item.tracking?.group !== tracking) return false;
         if (bedroom !== 'all') {
@@ -3630,7 +3630,7 @@
       return category ? item.category === category : true;
     }).length;
 
-    const bestCategoryForCodes = (codes) => categoryOrder
+	    const bestCategoryForCodes = (codes) => categoryOrder
       .map((category) => [category, countPropertiesForCodes(codes, category)])
       .sort((a, b) => b[1] - a[1])[0];
 
@@ -3650,9 +3650,9 @@
       if (zoneFilter) zoneFilter.value = zoneCode || 'all';
       if (zoneCode && zoneCode !== 'all') {
         const codes = [zoneCode];
-        const currentCount = state.activeCategory === 'all'
-          ? countPropertiesForCodes(codes)
-          : countPropertiesForCodes(codes, state.activeCategory);
+	        const currentCount = state.activeCategory === 'all'
+	          ? countPropertiesForCodes(codes)
+	          : countPropertiesForCodes(codes, state.activeCategory);
         const [bestCategory, bestCount] = bestCategoryForCodes(codes) || [];
         if (!currentCount && bestCategory && bestCount) setActiveCategory(bestCategory);
       }
@@ -4034,9 +4034,9 @@
 
     const renderStats = () => {
       if (!trackingStats) return;
-      const current = state.activeCategory === 'all'
-        ? state.properties
-        : state.properties.filter((item) => item.category === state.activeCategory);
+	      const current = state.activeCategory === 'all'
+	        ? state.properties
+	        : state.properties.filter((item) => item.category === state.activeCategory);
       const highlightGroups = ['available', 'soon'];
       trackingStats.innerHTML = `
         <span class="w-full lg:w-auto text-[11px] uppercase tracking-widest text-muted">${escapeHtml(t('tracking.quickSummary'))}</span>
